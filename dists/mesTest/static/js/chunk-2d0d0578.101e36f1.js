@@ -1,0 +1,5 @@
+/*!
+ *  build: HuiBo-Admin 
+ *   time: 2022-9-14 17:23:05
+ */
+(window["webpackJsonp_huibo"]=window["webpackJsonp_huibo"]||[]).push([["chunk-2d0d0578"],{6822:function(s,e,o){"use strict";o.r(e);var l,d,t=o("dd1a"),a={mixins:[t["a"]],data(){return{apiUrl:"/cms/odscjsthdsj",modalTitles:{add:"新增社团活动",edit:"编辑社团活动"},columns:[{label:"学生学号",prop:"xsxh"},{label:"学生姓名",prop:"xsxm"},{label:"参加社团活动类型",prop:"cjsthdlx",isRequired:!0},{label:"参加社团活动时间",prop:"cjsthdsj",type:"date",isRequired:!0},{label:"数据采集时间",prop:"sjcjsj",type:"datetime"}],formLayout:{colspan:1,width:"600px",align:"right"},columnDicts:[{prop:"cjsthdlx",code:"sthdlxdm"}],searchKeyword:"xsxm",searchPlaceholder:"请输入学生姓名查询",timeRangeFilter:{show:!0,fromProp:"cjsthdsjFrom",toProp:"cjsthdsjTo"}}}},r=a,p=o("2877"),c=Object(p["a"])(r,l,d,!1,null,null,null);e["default"]=c.exports}}]);

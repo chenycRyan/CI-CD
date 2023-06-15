@@ -1,0 +1,36 @@
+{
+  "crmServer": {
+    "apps": {
+      "test": {
+        "dir": "onePlusXWebMicro/test"
+      },
+      "mycd": {
+        "dir": "bak/mycd"
+      },
+      "customer": {
+        "dir": "bak/mesCustomer"
+      },
+      "project": {
+        "dir": "bak/mesProject"
+      },
+      "shujuzhongtai": {
+        "dir": "shujuzhongtaiTest"
+      }
+    },
+    "webdir": "D:/nginxServer/nginx-1.20.2/html"
+  },
+  "devServer": {
+    "apps": {
+      "mycd": {
+        "dir": "jenkins/mycd"
+      },
+      "mesDataPlatform": {
+        "dir": "onePlusXWebMicro/mesDataPlatform"
+      },
+      "mesTest": {
+        "dir": "onePlusXWebMicro/mesTest"
+      }
+    },
+    "webdir": "/usr/local/hb-apps"
+  }
+}

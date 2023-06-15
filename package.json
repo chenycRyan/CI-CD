@@ -1,0 +1,21 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "continuous deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./scripts/deploy.js",
+    "deployTask": "node ./scripts/deployTask.js",
+    "deploy:crmServer.test": "node ./scripts/deploy.js crmServer.test",
+    "deploy:crmServer.customer": "node ./scripts/deploy.js crmServer.customer",
+    "deploy:crmServer.shujuzhongtai": "node ./scripts/deploy.js crmServer.shujuzhongtai"
+  },
+  "author": "lixiao",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-ssh": "^13.0.0",
+    "ssh2-sftp-client": "^9.0.4"
+  }
+}
